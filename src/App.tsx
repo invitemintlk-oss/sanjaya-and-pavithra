@@ -20,7 +20,7 @@ export default function App() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    audioRef.current = new Audio('/paulyudin-wedding-485932.mp3');
+    audioRef.current = new Audio('/hetaka-mangala-mudu-da-mahiru-senarathne-yashodha-medagedara.mp3');
     audioRef.current.loop = true;
     audioRef.current.volume = 0.3;
     audioRef.current.preload = 'auto';
